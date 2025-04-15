@@ -1,5 +1,5 @@
 export default async function fetchProductCategories() {
-    await new Promise(resolve => setTimeout(resolve, 4000));
+    // await new Promise(resolve => setTimeout(resolve, 4000));
   
     const res = await fetch('https://fakestoreapi.com/products/categories');
   
